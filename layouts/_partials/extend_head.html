@@ -1,0 +1,43 @@
+{{- /* Project-level head extensions. PaperMod includes this partial in <head> if present. */ -}}
+<style>
+  /* Petition CTA — adapts to light/dark mode via PaperMod's CSS variables. */
+  .cta-petition {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 1.25rem;
+    margin: 2rem auto;
+    max-width: 640px;
+    text-align: center;
+  }
+  .cta-petition h3 {
+    margin: 0 0 .5rem;
+    color: var(--primary);
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+  .cta-petition p {
+    color: var(--secondary);
+    margin: 0 0 1.25rem;
+    line-height: 1.5;
+  }
+  .cta-petition .cta-btn {
+    display: inline-block;
+    background: #c0392b;
+    color: #ffffff !important;
+    padding: .75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .15s ease, transform .05s ease;
+  }
+  .cta-petition .cta-btn:hover,
+  .cta-petition .cta-btn:focus {
+    background: #962d22;
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+  .cta-petition .cta-btn:active {
+    transform: translateY(1px);
+  }
+</style>

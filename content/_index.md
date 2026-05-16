@@ -3,6 +3,8 @@ title = "Spring Street Neighbors"
 description = "Neighbors at Spring & 11th in Redwood City organizing for safe streets and traffic calming."
 +++
 
+![A car blasting through the stop sign at Spring & 11th](/images/spring-street-stop-sign-runner.png)
+
 We are neighbors living at the intersection of **Spring Street and 11th Avenue** in Redwood City. Our street has become a thoroughfare for speeding cars — and we are deeply concerned about what happens next.
 
 Redwood City is investing **over $3 million** in the [Bay Road Complete Streets Rehabilitation Project](https://share.google/Y9JDSyXXVB6sROs8a) to calm traffic on Bay Road through bulb-outs, roundabouts, and other proven measures. We support those goals.

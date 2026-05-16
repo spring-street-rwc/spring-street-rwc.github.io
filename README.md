@@ -1,6 +1,8 @@
 # Spring Street Neighbors — Redwood City
 
-Source for [spring-street-rwc.github.io](https://spring-street-rwc.github.io/). A Hugo + [Ananke](https://github.com/gohugo-ananke/ananke) static site advocating for traffic calming on Spring Street between the Bay Road Complete Streets project and the surrounding residential network.
+Source for [spring-street-rwc.github.io](https://spring-street-rwc.github.io/). A Hugo + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) static site advocating for traffic calming on Spring Street between the Bay Road Complete Streets project and the surrounding residential network.
+
+The site supports light/dark mode — it follows the visitor's OS preference by default, with a toggle in the header to override.
 
 ## Local development
 
@@ -40,6 +42,8 @@ The petition URL lives in one place: the `petition_url` param in `hugo.toml`. Up
 
 The shortcode also accepts optional `headline`, `subtext`, and `label` arguments — see `layouts/_shortcodes/petition-cta.html`.
 
+CTA styling lives in `layouts/_partials/extend_head.html` (PaperMod includes this partial in `<head>` automatically). It uses PaperMod's CSS variables (`--primary`, `--secondary`, `--border`, `--code-bg`) so it adapts to both light and dark mode.
+
 ## Deployment
 
 Pushes to `main` automatically build and deploy via `.github/workflows/hugo.yml`.
@@ -55,13 +59,17 @@ For a custom domain, add a `static/CNAME` file containing the domain and configu
 
 ```
 content/             # Markdown pages and posts
-  _index.md          # Home page
+  _index.md          # Home page (intro + hero image)
   about.md
   bay-road-project.md
   how-to-help.md
   post/              # Blog
-layouts/_shortcodes/ # petition-cta.html — site-wide CTA
-static/              # Static files served at site root (e.g. .nojekyll)
-themes/ananke/       # Ananke theme (git submodule — do not edit in place)
-hugo.toml            # Site config — baseURL, menu, params (incl. petition_url)
+layouts/
+  _shortcodes/       # petition-cta.html — site-wide CTA shortcode
+  _partials/         # extend_head.html — custom CSS injected into <head>
+static/
+  images/            # Site images (hero, etc.)
+  .nojekyll          # Disables Jekyll on GitHub Pages
+themes/PaperMod/     # PaperMod theme (git submodule — do not edit in place)
+hugo.toml            # Site config — baseURL, menu, params (incl. petition_url, defaultTheme)
 ```

@@ -1,20 +1,23 @@
 {{- /*
-  Petition CTA — renders a prominent call-to-action button linking to
+  Petition CTA — renders a prominent call-to-action linking to
   site.Params.petition_url. Update the URL in hugo.toml to change every CTA.
 
   Optional args:
     headline  — heading text (default "Demand equal traffic calming on Spring Street")
     subtext   — supporting line under the headline (default "")
     label     — override button text (default site.Params.petition_label)
+
+  Styling lives in layouts/_partials/extend_head.html so it adapts to
+  PaperMod's light/dark mode via CSS variables.
 */ -}}
 {{- $url := site.Params.petition_url -}}
 {{- $label := .Get "label" | default site.Params.petition_label | default "Sign on" -}}
 {{- $headline := .Get "headline" | default "Demand equal traffic calming on Spring Street" -}}
 {{- $subtext := .Get "subtext" -}}
-<aside class="cf mv4 pa4 bg-near-white br3 tc center mw7" role="complementary" aria-label="Petition call to action">
-  <h2 class="f3 fw6 mt0 mb2 dark-gray lh-title">{{ $headline }}</h2>
-  {{ with $subtext }}<p class="f5 mid-gray mt0 mb3 lh-copy">{{ . }}</p>{{ end }}
-  <a class="dib f5 fw6 link white pa3 ph4 br2 bg-dark-red bg-animate hover-bg-black"
+<aside class="cta-petition" role="complementary" aria-label="Petition call to action">
+  <h3>{{ $headline }}</h3>
+  {{- with $subtext }}<p>{{ . }}</p>{{ end }}
+  <a class="cta-btn"
      href="{{ $url }}"
      rel="noopener"
      target="_blank">{{ $label }} →</a>
