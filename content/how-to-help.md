@@ -15,7 +15,7 @@ If you live on or near Spring Street — or anywhere in Redwood City that cares 
 
 A short, personal email from a constituent has real weight. Three sentences is enough:
 
-> *"I live near Spring Street and 11th. I support the Bay Road Complete Streets project, but I am asking the Council to fund equivalent calming on Spring Street so it does not become the cut-through route once Bay is calmed. The change is foreseeable — please plan for it now."*
+> *"I live on or near Spring Street between Bay Rd and 5th Ave. I support the Bay Road Complete Streets project, but I am asking the Council to fund equivalent calming on Spring Street so it does not become the cut-through route once Bay is calmed. The change is foreseeable — please plan for it now."*
 
 Find your Council member at [redwoodcity.org/council](https://www.redwoodcity.org/departments/city-clerk/city-council).
 
@@ -35,7 +35,7 @@ Documented incidents move the conversation from "we feel unsafe" to "here is wha
 
 ## 5. Talk to your neighbors
 
-Most of the people on the block agree that the street is dangerous. They just have not been organized. A single petition signature from each household has compounding political weight.
+Most of the people in our neighborhood agree that the street is dangerous. They just have not been organized. A single petition signature from each household has compounding political weight.
 
 ## 6. Subscribe to updates
 

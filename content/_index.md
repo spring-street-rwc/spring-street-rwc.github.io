@@ -1,6 +1,6 @@
 +++
 title = "Spring Street Neighbors"
-description = "Neighbors at Spring & 11th in Redwood City organizing for safe streets and traffic calming."
+description = "Neighbors in North Fair Oaks organizing for safe streets and traffic calming."
 +++
 
 <figure class="hero-image">
@@ -8,13 +8,13 @@ description = "Neighbors at Spring & 11th in Redwood City organizing for safe st
   <div class="hero-overlay" aria-hidden="true"></div>
   <div class="hero-caption">
     <h1>Spring Street Neighbors</h1>
-    <p>Neighbors at Spring &amp; 11th in Redwood City organizing for safe streets and traffic calming.</p>
+    <p>Neighbors in North Fair Oaks organizing for safe streets and traffic calming.</p>
   </div>
 </figure>
 
-We are neighbors living at the intersection of **Spring Street and 11th Avenue** in Redwood City. Our street has become a thoroughfare for speeding cars — and we are deeply concerned about what happens next.
+We are neighbors living on or near **Spring Street between 5th Ave and Bay Rd** in Redwood City. Our street has become a thoroughfare for speeding cars — and we are deeply concerned about what happens next.
 
-Redwood City is investing **over $3 million** in the [Bay Road Complete Streets Rehabilitation Project](https://share.google/Y9JDSyXXVB6sROs8a) to calm traffic on Bay Road through bulb-outs, roundabouts, and other proven measures. We support those goals.
+San Mateo County and Redwood City are investing **over $3 million** in the [Bay Road Complete Streets Rehabilitation Project](https://share.google/Y9JDSyXXVB6sROs8a) to calm traffic on Bay Road through bulb-outs, roundabouts, and other proven measures. We support those goals.
 
 But there is an obvious, predictable consequence: **navigation apps will reroute frustrated drivers onto Spring Street.** Our road has none of those calming measures. Without equivalent investment, Spring Street will become more dangerous than it already is — and a serious injury or fatality is only a matter of time.
 

@@ -39,7 +39,7 @@ The Bay Road project, *without parallel investment on Spring*, takes a street th
 
 Three things from the City of Redwood City:
 
-1. **Include Spring Street in the calming plan.** Bulb-outs at our stop-controlled intersections, a mini-roundabout at Spring & 11th, and raised crosswalks where children cross.
+1. **Create a Spring Street calming plan.** Bulb-outs at our stop-controlled intersections, mini-roundabouts on Spring, speed bumps, and raised crosswalks where pedestrians and residents cross.
 2. **Allocate grant funding** at parity with the Bay Road project. State and federal Safe Streets and Roads for All (SS4A) and similar programs explicitly fund this kind of network-level calming.
 3. **Plan interim mitigation** during Bay Road construction — temporary speed humps, increased enforcement, or barriers — to manage the spike in cut-through traffic.
 

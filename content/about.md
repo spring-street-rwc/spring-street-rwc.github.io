@@ -7,7 +7,7 @@ tags = ["about"]
 
 ## Who we are
 
-We are residents of **Spring Street and the surrounding blocks around 11th Avenue** in Redwood City, California. This site is a collective effort — no single author. We share a stop sign, a crosswalk, and a growing list of close calls.
+We are residents of **Spring Street in North Fair Oaks** in San Mateo County, California. This site is a collective effort — no single author. We share a stop sign, a crosswalk, and a growing list of close calls.
 
 ## What we've witnessed
 
