@@ -1,5 +1,109 @@
 {{- /* Project-level head extensions. PaperMod includes this partial in <head> if present. */ -}}
 <style>
+  /* ---- Brand colors ---- */
+  :root {
+    --brand-primary: #17355e;        /* deep navy blue */
+    --brand-primary-hover: #1f4477;  /* slightly lighter on hover */
+    --brand-primary-accent: #60a5fa; /* sky-blue accent for active states */
+  }
+
+  /* ---- Tighten top spacing across all pages ---- */
+  .main { padding-top: 0; }
+  .post-content { margin-top: 0; }
+  .page-header, .post-header { margin-top: 1rem; }
+  /* Zero top margin on the first element inside content (heading, figure, p)
+     so it sits flush with the header without leaving a body-bg strip. */
+  .post-content > :first-child,
+  .md-content > :first-child { margin-top: 0; }
+
+  /* ---- Header: compact, dark green, white text ---- */
+  .header {
+    background: var(--brand-primary);
+    border-bottom: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .header .header-nav {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: 0 var(--gap);
+    min-height: 44px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .header .logo a {
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+  }
+  .header .logo a:hover { color: rgba(255, 255, 255, 0.85); }
+  .header .menu a {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 0.65rem;
+    font-size: 0.95rem;
+  }
+  .header .menu a:hover { color: #fff; }
+  .header .menu .active {
+    color: var(--brand-primary-accent);
+    border-bottom: 2px solid var(--brand-primary-accent);
+    padding-bottom: 2px;
+  }
+  /* Theme toggle button on green */
+  .header .theme-toggle { color: rgba(255, 255, 255, 0.85); }
+  .header .theme-toggle:hover { color: #fff; }
+
+  /* ---- Hamburger (pure CSS toggle) ---- */
+  .nav-toggle { display: none; }
+  .nav-toggle-label {
+    display: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: auto;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .nav-toggle-label:hover { background: rgba(255, 255, 255, 0.1); }
+  .nav-toggle-label:focus-within { outline: 2px solid var(--brand-primary-accent); }
+
+  @media (max-width: 768px) {
+    .header .header-nav { flex-wrap: nowrap; }
+    .nav-toggle-label { display: inline-flex; align-items: center; }
+
+    /* Collapse the menu into a full-width dropdown below the bar. */
+    .header .menu {
+      display: none;
+      flex-basis: 100%;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      margin: 0;
+      padding: 0.5rem 0;
+      background: var(--brand-primary-hover);
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .header .menu li { width: 100%; }
+    .header .menu a {
+      display: block;
+      padding: 0.75rem var(--gap);
+      width: 100%;
+    }
+    .header .menu .active {
+      border-bottom: none;
+      border-left: 3px solid var(--brand-primary-accent);
+      padding-left: calc(var(--gap) - 3px);
+    }
+
+    /* Reveal menu when checkbox is checked (sibling selector). */
+    .nav-toggle:checked ~ .menu { display: flex; }
+    /* Animate hamburger → X */
+    .nav-toggle:checked ~ .nav-toggle-label .nav-toggle-bar-top { transform: translate(0, 6px) rotate(45deg); transform-origin: center; }
+    .nav-toggle:checked ~ .nav-toggle-label .nav-toggle-bar-mid { opacity: 0; }
+    .nav-toggle:checked ~ .nav-toggle-label .nav-toggle-bar-bot { transform: translate(0, -6px) rotate(-45deg); transform-origin: center; }
+    .nav-toggle-bar { transition: transform .2s ease, opacity .15s ease; }
+  }
+
   /* Full-bleed hero image with dark gradient overlay and centered title/subtitle.
      Uses left:50% + negative margins to break out of PaperMod's centered .main container. */
   body { overflow-x: hidden; }
