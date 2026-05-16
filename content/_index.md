@@ -3,7 +3,14 @@ title = "Spring Street Neighbors"
 description = "Neighbors at Spring & 11th in Redwood City organizing for safe streets and traffic calming."
 +++
 
-![A car blasting through the stop sign at Spring & 11th](/images/spring-street-stop-sign-runner.png)
+<figure class="hero-image">
+  <img src="/images/spring-street-stop-sign-runner.png" alt="A car blasting through the stop sign at Spring & 11th">
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-caption">
+    <h1>Spring Street Neighbors</h1>
+    <p>Neighbors at Spring &amp; 11th in Redwood City organizing for safe streets and traffic calming.</p>
+  </div>
+</figure>
 
 We are neighbors living at the intersection of **Spring Street and 11th Avenue** in Redwood City. Our street has become a thoroughfare for speeding cars — and we are deeply concerned about what happens next.
 
