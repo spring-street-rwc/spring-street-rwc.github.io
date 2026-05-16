@@ -1,4 +1,54 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'ananke'
+baseURL = "https://spring-street-rwc.github.io/site/"
+locale = "en-us"
+title = "Spring Street Neighbors — Redwood City"
+theme = "ananke"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Markdown rendering — allow raw HTML in posts for occasional embeds beyond the
+# built-in youtube shortcode.
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 20
+
+[[menu.main]]
+name = "Bay Road Project"
+url = "/bay-road-project/"
+weight = 30
+
+[[menu.main]]
+name = "How to Help"
+url = "/how-to-help/"
+weight = 40
+
+[[menu.main]]
+name = "Blog"
+url = "/post/"
+weight = 50
+
+[params]
+description = "Neighbors at Spring & 11th in Redwood City organizing for safe streets and traffic calming on Spring Street."
+background_color_class = "bg-dark-gray"
+recent_posts_number = 5
+
+# Petition / signup CTA. Replace petition_url with the real Google Form or
+# Change.org URL when ready — the petition-cta shortcode reads from here so
+# every CTA on the site updates with a single edit.
+petition_url = "https://example.org/sign"
+petition_label = "Sign the petition"
+
+[params.ananke]
+show_recent_posts = true
+
+[params.ananke.home]
+content_alignment = "center"
