@@ -1,4 +1,4 @@
-baseURL = "https://spring-street-rwc.github.io/site/"
+baseURL = "https://spring-street-rwc.github.io/"
 locale = "en-us"
 title = "Spring Street Neighbors — Redwood City"
 theme = "ananke"

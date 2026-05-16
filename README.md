@@ -1,18 +1,18 @@
 # Spring Street Neighbors — Redwood City
 
-Source for [spring-street-rwc.github.io/site/](https://spring-street-rwc.github.io/site/). A Hugo + [Ananke](https://github.com/gohugo-ananke/ananke) static site advocating for traffic calming on Spring Street between the Bay Road Complete Streets project and the surrounding residential network.
+Source for [spring-street-rwc.github.io](https://spring-street-rwc.github.io/). A Hugo + [Ananke](https://github.com/gohugo-ananke/ananke) static site advocating for traffic calming on Spring Street between the Bay Road Complete Streets project and the surrounding residential network.
 
 ## Local development
 
 Requires [Hugo extended](https://gohugo.io/installation/) (matches v0.161.1+ for parity with CI).
 
 ```bash
-git clone --recurse-submodules https://github.com/spring-street-rwc/site.git
-cd site
+git clone --recurse-submodules https://github.com/spring-street-rwc/spring-street-rwc.github.io.git
+cd spring-street-rwc.github.io
 hugo server -D
 ```
 
-The dev server runs at http://localhost:1313/site/ — the path matches `baseURL` in `hugo.toml`.
+The dev server runs at http://localhost:1313/.
 
 If you already cloned without `--recurse-submodules`:
 
