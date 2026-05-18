@@ -16,7 +16,7 @@ We are neighbors living on or near **Spring Street between 5th Ave and Bay Rd** 
 
 San Mateo County and Redwood City are investing **over $3 million** in the [Bay Road Complete Streets Rehabilitation Project](https://share.google/Y9JDSyXXVB6sROs8a) to calm traffic on Bay Road through bulb-outs, roundabouts, and other proven measures. We support those goals.
 
-But there is an obvious, predictable consequence: **navigation apps will reroute frustrated drivers onto Spring Street.** Our road has none of those calming measures. Without equivalent investment, Spring Street will become more dangerous than it already is — and a serious injury or fatality is only a matter of time.
+But there is an obvious, predictable consequence: **navigation apps will reroute frustrated drivers onto Spring Street.** Spring Street only has a few speed bumps and people are routinely speeding through, blowing stop signs, and ignoring speed limits. Without equivalent investment, Spring Street will become more dangerous than it already is — and a serious injury or fatality is only a matter of time.
 
 {{< petition-cta
   headline="We need equal traffic calming on Spring Street"
