@@ -25,7 +25,7 @@ The project is, by design, **scoped strictly to Bay Road.** No comparable calmin
 
 This is not speculation. It is the well-documented consequence of one-corridor calming when alternate routes exist:
 
-1. **Navigation apps** (Google Maps, Waze, Apple Maps) constantly re-rank routes by real-time travel time. As Bay Road slows, Spring Street's relative speed advantage grows.
+1. **Navigation apps** (Google Maps, Waze, Apple Maps) constantly re-rank routes by real-time travel time. As Bay Road slows, Spring Street's relative speed advantage grows. (This happened when Bay Rd speed limit was reduced a few years ago. It will only get worse.)
 2. **Frustrated drivers** — those who used Bay Road by habit — will discover Spring Street as a faster bypass and propagate that knowledge informally.
 3. **Construction-period traffic** will be even worse than the steady-state. The moment Bay Road is partially closed or down to a single lane, every Bay-Road driver becomes a Spring-Street driver overnight.
 
@@ -41,7 +41,7 @@ Three things from the City of Redwood City:
 
 1. **Create a Spring Street calming plan.** Bulb-outs at our stop-controlled intersections, mini-roundabouts on Spring, speed bumps, and raised crosswalks where pedestrians and residents cross.
 2. **Allocate grant funding** at parity with the Bay Road project. State and federal Safe Streets and Roads for All (SS4A) and similar programs explicitly fund this kind of network-level calming.
-3. **Plan interim mitigation** during Bay Road construction — temporary speed humps, increased enforcement, or barriers — to manage the spike in cut-through traffic.
+3. **Plan interim mitigation** during Bay Road construction — speed humps, increased enforcement, or barriers — to manage the spike in cut-through traffic.
 
 {{< petition-cta
   headline="Tell the City: calm Spring Street too"
